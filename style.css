@@ -9,7 +9,7 @@
     width: 60vw;
 }
 
-#logo-img{
+#header-img{
     width: 100%;
     max-width: 200px;
     height: 100%;
@@ -76,7 +76,7 @@ body{
     margin-left: 200px;;
 }
 .box{
-    background-color: aquamarine;
+    background-color: #ececec;
     height: 260px;
     width: 300px;
     text-align: center;
@@ -85,7 +85,7 @@ body{
 .BASS{
     width: 300px;
     height: 50px;
-    background-color: cornflowerblue;
+    background-color: #dcdcdc;
     margin-top: 2px;
 }
 .paragra{
