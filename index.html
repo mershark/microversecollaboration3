@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Product Page</title>
 </head>
 <body>
@@ -26,26 +27,26 @@
     <section class="nav-link" id="features">
         <div>
             <h1 class="home">Handcrafted, home-made masterpieces</h1>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <form id="form" action="#">
             <input type="email" action placeholder="Enter your email address" required/>
             <input type="submit" id="submit"  value="GET STARTED">
         </div>
-        <div>
-            <h1>Premium Materials</h1>
+        <div class="paragra">
+          <h1> <i class="fa fa-fire"> Premium Materials</i></h1>
             <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
         </div>
-        <div>
-            <h1>Fast Shipping</h1>
+        <div  class="paragra">
+            <h1><i class="fa fa-car"> Fast Shipping</i></h1>
             <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
         </div>
-        <div>
-            <h1>Quality Assurance</h1>
+        <div class="paragra">
+            <h1><i class="fa fa-battery-full"> Quality Assurance</i></h1>
             <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
         </div>
     </section>
 
     <section class="nav-link" id="how_it_works">
-        <div>
+        <div class="video">
             <video width="500" controls>
                 <source src="" type="video/mp4">
                 <source src="" type="video/ogg">
@@ -54,54 +55,43 @@
     </section>
     
     <section class="nav-link" id="pricing"> 
-        <div>
-            <h1>TENOR TROMBONE</h1>
+        <div class="gride">
+        <div class="box">
+            <h1 class="BASS">TENOR TROMBONE</h1>
             <h2>$600</h2>
-            <ul>
-                <li>
+            
                     <p>Lorem ipsum.</p>
                     <p>Lorem ipsum.</p>
                     <p>Lorem ipsum.</p>
-                </li>
-            </ul>
             <button id="select">Select</button>
         </div>
-        <div>
-            <h1>BASS TROMBONE</h1>
+        <div class="box">
+            <h1 class="BASS">BASS TROMBONE</h1>
             <h2>$900</h2>
-            <ul>
-                <li>
+
                     <p>Lorem ipsum.</p>
                     <p>Lorem ipsum.</p>
                     <p>Lorem ipsum.</p>
-                </li>
-            </ul>
+
             <button id="select">Select</button>
         </div>
-        <div>
-            <h1>VALVE TROMBONE</h1>
+        <div class="box">
+            <h1 class="BASS">VALVE TROMBONE</h1>
             <h2>$1200</h2>
-            <ul>
-                <li>
                     <p>Lorem ipsum.</p>
                     <p>Lorem ipsum.</p>
                     <p>Lorem ipsum.</p>
-                </li>
-            </ul>
             <button id="select">Select</button>
         </div>
+       </div> 
     </section>
 </body>
 <footer id="footer">
-    <nav>
-        <ul>
-            <li>
-                <a href="">Privacy</a> 
-                <a href="">Terms</a>
+    <div class="privacy">
+                <a href="">Privacy</a>&nbsp &nbsp &nbsp  
+                <a href="">Terms</a>&nbsp &nbsp &nbsp 
                 <a href="">Contact</a>
-            </li>
-        </ul>
-        <p>Copyright 2016, Original Trombones</p>
-    </nav>
+        <p class="Copyright">Copyright 2016, Original Trombones</p>
+    </div>
 </footer>
 </html>
